@@ -13,9 +13,10 @@ const TodoCompleteItem = (props: TodoItemCompleteInterface) => {
         )}
       </div>
       <div className="todo-item-input-wrapper">
-        <input
-          value={props.completeTodo.text}
-        />
+        {/* <input
+          defaultValue={props.completeTodo.text}
+        /> */}
+        <p>{props.completeTodo.text}</p>
       </div>
       <div className="item-remove" onClick={() => props.handleTodoCompleteRemove(props.completeTodo.id)}>
         &#x02A2F;

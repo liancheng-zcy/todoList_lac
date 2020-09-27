@@ -1,10 +1,10 @@
-// Import dependencies
+
 import * as React from 'react'
 
-// Import interfaces
+
 import { TodoItemInterface } from './../interfaces'
 
-// TodoItem component
+
 const TodoItem = (props: TodoItemInterface) => {
   return (
     <div className='todo-item'>

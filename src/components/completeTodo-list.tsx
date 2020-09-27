@@ -21,3 +21,5 @@ const TodoListComplete = (props: TodoListCompleteInterface) => {
     </div>
   )
 }
+
+export default TodoListComplete;
