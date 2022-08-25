@@ -45,4 +45,5 @@ const TodoForm = (props: TodoFormInterface) => {
   )
 }
 
-export default TodoForm
+export default TodoForm;
+
