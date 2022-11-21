@@ -6,6 +6,7 @@ import { render } from 'react-dom'
 import TodoForm from './components/todo-form'
 import TodoList from './components/todo-list'
 import TodoListComplete from './components/completeTodo-list'
+import ReactUse from './components/react-use';
 
 
 import { TodoInterface } from './interfaces'
@@ -115,6 +116,7 @@ const TodoListApp = () => {
         handleTodoCompleteRemove={handleTodoCompleteRemove}
         handleTodoCancel={handleTodoCancel}
       />
+      <ReactUse />
     </div>
   )
 }
