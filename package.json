@@ -44,6 +44,7 @@
   "dependencies": {
     "react": "16.11.0",
     "react-dom": "16.11.0",
+    "react-use": "^17.4.0",
     "shortid": "2.2.15"
   },
   "devDependencies": {
@@ -51,6 +52,6 @@
     "@types/react-dom": "16.9.4",
     "@types/shortid": "^0.0.29",
     "react-scripts": "3.2.0",
-    "typescript": "3.7.2"
+    "typescript": "^4.8.4"
   }
 }
