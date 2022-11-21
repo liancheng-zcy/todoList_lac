@@ -64,5 +64,7 @@ npm run test
 
 * Github: [@LiAncheng](https://github.com/liancheng-zcy)
 
+## 如遇到安装不成功删除lock文件重新安装
+
 
 
